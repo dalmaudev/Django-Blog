@@ -6,10 +6,11 @@
     {% if title %}
         <title>Django Blog - {{ title }}</title>
     {% else %}
-        <title>Home Django Blog</title>
+        <title>Django Blog</title>
     {% endif %}
 </head>
 <body>
-    <h1>Blog About!</h1>
+    {% block content %}
+    {% endblock content %}
 </body>
 </html>
