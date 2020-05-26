@@ -6,3 +6,5 @@ def home(request):
     return HttpResponse('Hola')
 
 
+def about(request):
+    return HttpResponse('About')
